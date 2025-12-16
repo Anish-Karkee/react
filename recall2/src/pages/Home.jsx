@@ -21,7 +21,7 @@ const HomePage = () => {
               Dimension of reality that makes change possible and understandable. An indefinite and homogeneous environment in which natural events and human existence take place. Dimension of reality that makes change possible and understandable. An indefinite and homogeneous environment in which natural events and human existence take place.
             </p>
             <div className="flex mt-8 gap-4">
-             <Link to="/product"><Button text="Buy Now" color="text-white bg-black hover:text-black hover:scale-105 hover:shadow-lg transition duration-300"/></Link>
+             <Link to="/product"><Button text="View Specs" color="text-white bg-black hover:text-black hover:scale-105 hover:shadow-lg transition duration-300"/></Link>
 
              <Link to="/about"><Button text="Read More" color="text-white bg-black hover:text-black hover:scale-105 hover:shadow-lg transition duration-300"/></Link>
             </div>

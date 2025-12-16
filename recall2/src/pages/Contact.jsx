@@ -58,7 +58,7 @@ const ContactPage = () => {
             <a href="#" className="w-10 h-10 bg-gray-700 flex items-center justify-center rounded-full text-white transition duration-300 hover:bg-blue-500 transform hover:-translate-y-1">
               <i className="fab fa-facebook-f" />
             </a>
-            <a href="#" className="w-10 h-10 bg-gray-700 flex items-center justify-center rounded-full text-white transition duration-300 hover:bg-pink-500 transform hover:-translate-y-1">
+            <a href="#" className="w-10 h-10 bg-gray-700 flex items-center justify-center rounded-full text-white transition duration-300 hover:bg-red-800 transform hover:-translate-y-1">
               <i className="fab fa-instagram" />
             </a>
             <a href="#" className="w-10 h-10 bg-gray-700 flex items-center justify-center rounded-full text-white transition duration-300 hover:bg-blue-400 transform hover:-translate-y-1">
