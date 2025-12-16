@@ -93,10 +93,10 @@ const Gallary = () => {
         </div>
       </div>
     </div>
-    <div className="text-center mt-16 ">
+    <div className="flex justify-center py-8 ">
      
-      <Button className="flex items-center gap-4" color="text-white bg-black hover:text-black"
-      label='load more'
+      <Button className="flex items-center gap-4" color="text-white bg-black hover:text-black hover:scale-105 hover:shadow-lg transition duration-300"
+      label='Load More'
       />
       
     </div>
