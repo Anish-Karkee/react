@@ -5,7 +5,7 @@ import Button from '../components/common/Button'
 const TestimonialPage = () => {
   return (
     <>
-   <section id="about" className="py-20 md:px-22 lg:px-20 bg-[#fefcfc]">
+   <section id="about" className="py-20 md:px-22 lg:px-20 bg-[#ffffff]">
   <div className="container mx-auto px-4">
     <div className="mb-12">
       {/* Heading */}
