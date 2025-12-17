@@ -33,10 +33,16 @@ const NavBar = () => {
         </div>
 
         {/* Contact Button */}
-        <div className="px-8">
+        <div className="px-8 flex gap-4">
           <Link to="/contact">
             <Button
               text="Contact"
+              color="text-white bg-black hover:text-black hover:scale-105 hover:shadow-lg transition duration-300"
+            />
+          </Link>
+          <Link to="/signin">
+            <Button
+              text="SIGN-IN"
               color="text-white bg-black hover:text-black hover:scale-105 hover:shadow-lg transition duration-300"
             />
           </Link>

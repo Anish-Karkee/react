@@ -4,7 +4,7 @@ import Button from '../common/Button'
 const ProductCard = ({product}) => {
   return (
     <>
-    <div className='border border-gray-800 bg-gray-800 px-4 py-4 rounded-lg'>
+    <div className='border border-gray-800 bg-gray-800 px-2 py-2 rounded-lg'>
 
         <img src={product.img} alt="" className='rounded-lg' />
 

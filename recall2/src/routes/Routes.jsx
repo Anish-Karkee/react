@@ -7,6 +7,7 @@ import TestimonialPage from "../pages/Testamonial";
 import Contact from '../pages/Contact'
 import Product from '../pages/Product'
 import SignUpPage from "../pages/SignUpPage";
+import LogInPage from "../pages/LogInPage";
 const Routes = () => {
     const router = createBrowserRouter(
         createRoutesFromElements(
@@ -20,6 +21,7 @@ const Routes = () => {
                 <Route path="contact" element={<Contact/>} />
                 <Route path="product" element={<Product/>}/>
                 <Route path="signup" element={<SignUpPage/>}/>
+                <Route path="signin" element={<LogInPage/>}/>
 
             </Route>
             
