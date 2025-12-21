@@ -1,10 +1,10 @@
 import React from 'react'
-import me from "../../assets/images/me.jpg"
+import young from "../../assets/images/young.png"
 const Logo = () => {
 
   return (
     <>
-    <img src={me} alt="" srcset="" className='h-10 w-10 rounded-full' />
+    <img src={young} alt="" srcset="" className='h-10 w-10 rounded-full' />
     
     </>
   )

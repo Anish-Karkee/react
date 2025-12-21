@@ -8,6 +8,7 @@ import Contact from '../pages/Contact'
 import Product from '../pages/Product'
 import SignUpPage from "../pages/SignUpPage";
 import LogInPage from "../pages/LogInPage";
+import CheckAuthentication from "../components/checkAuthentication";
 const Routes = () => {
     const router = createBrowserRouter(
         createRoutesFromElements(
@@ -19,9 +20,16 @@ const Routes = () => {
                 <Route path="gallery" element={<Gallary/>}/>
                 <Route path="testimonial" element={<TestimonialPage/>}/>
                 <Route path="contact" element={<Contact/>} />
-                <Route path="product" element={<Product/>}/>
+                <Route path="product" element={
+                    <CheckAuthentication>
+                         <Product/>
+                    </CheckAuthentication>
+                       
+                   
+                   
+                }/>
                 <Route path="signup" element={<SignUpPage/>}/>
-                <Route path="signin" element={<LogInPage/>}/>
+                <Route path="login" element={<LogInPage/>}/>
 
             </Route>
             

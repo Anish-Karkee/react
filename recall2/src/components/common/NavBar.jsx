@@ -19,7 +19,7 @@ const NavBar = () => {
         <div>
           <Link to="/" className="flex items-center gap-2">
             <Logo />
-            <h1 className="text-4xl">AZK</h1>
+            <h1 className="text-1.5xl">YOUNG ENFEILDERS</h1>
           </Link>
         </div>
 
@@ -37,13 +37,13 @@ const NavBar = () => {
           <Link to="/contact">
             <Button
               text="Contact"
-              color="text-white bg-black hover:text-black hover:scale-105 hover:shadow-lg transition duration-300"
+              color="text-blue-300 bg-black hover:text-white hover:scale-105 hover:shadow-lg transition duration-300"
             />
           </Link>
-          <Link to="/signin">
+          <Link to="/login">
             <Button
-              text="SIGN-IN"
-              color="text-white bg-black hover:text-black hover:scale-105 hover:shadow-lg transition duration-300"
+              text="Login"
+              color="text-blue-300 bg-black hover:text-white hover:scale-105 hover:shadow-lg transition duration-300"
             />
           </Link>
          

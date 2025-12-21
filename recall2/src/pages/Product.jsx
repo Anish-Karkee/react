@@ -8,7 +8,7 @@ const Products = () => {
   return (
     <>
    
-   <div className="grid grid-cols-4 pt-2 px-10"><ProductList products={products}/></div>
+   <div className="grid grid-cols-4 pt-8 px-10"><ProductList products={products}/></div>
     </>
   )
 }

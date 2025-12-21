@@ -6,7 +6,7 @@ const ProductList = ({products}) => {
    
     {
         products.map((product)=>(
-            <div className=' tex-2xl m-10 pr-8'>
+            <div className=' tex-2xl m-5 pr-8'>
                 <ProductCard product={product}/>
             </div>
         ))
