@@ -36,7 +36,7 @@ const NavBar = () => {
         <div className="px-8 flex gap-4">
           <Link to="/contact">
             <Button
-              text="Contact"
+              text="Contact Us"
               color="text-blue-300 bg-black hover:text-white hover:scale-105 hover:shadow-lg transition duration-300"
             />
           </Link>
