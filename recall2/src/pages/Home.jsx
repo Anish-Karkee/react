@@ -53,10 +53,10 @@ const HomePage = () => {
 
         {/* Right Content */}
         <div className="md:w-1/2 w-full text-center md:text-left relative left-120">
-          <h1 className="text-4xl font-bold mt-2 mb-6">
+          <h1 className=" font-bebas-neue uppercase text-6xl font-bold mt-2 mb-6">
             Follow your passion
             <br />
-            by joining Us!!
+            With Us!!
           </h1>
 
           <p className="leading-relaxed md:text-xl sm:text-lg text-base mt-4 text-justify sm:px-2 dark:text-black">

@@ -13,6 +13,7 @@
 // import { Routes } from "react-router-dom"
 import Routes from './routes/Routes'
 import Header from './components/common/Header'
+import UseState from './components/usestate/UseState'
 
 const App = () => {
   return (
@@ -20,7 +21,7 @@ const App = () => {
    
       
       <Routes/>
-    
+      {/* <UseState/> */}
     
  
     </>

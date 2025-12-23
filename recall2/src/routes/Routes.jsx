@@ -9,12 +9,14 @@ import Product from '../pages/Product'
 import SignUpPage from "../pages/SignUpPage";
 import LogInPage from "../pages/LogInPage";
 import CheckAuthentication from "../components/checkAuthentication";
+import AuthLayout from "../layouts/AuthLayout";
+import UnAuthLayout from "../layouts/UnAuthLayout";
 const Routes = () => {
     const router = createBrowserRouter(
         createRoutesFromElements(
             <>
             
-            <Route path="/" element={<Layout/>} >
+            <Route path="/" element={<AuthLayout/>} >
                 <Route index element={< HomePage/>}/>
                 <Route path="about" element={<AboutPage/>}/>
                 <Route path="gallery" element={<Gallary/>}/>
@@ -28,11 +30,14 @@ const Routes = () => {
                    
                    
                 }/>
-                <Route path="signup" element={<SignUpPage/>}/>
-                <Route path="login" element={<LogInPage/>}/>
+              
 
             </Route>
-            
+             <Route path="/" element={<UnAuthLayout/>} >
+
+                  <Route path="signup" element={<SignUpPage/>}/>
+                <Route path="login" element={<LogInPage/>}/>
+            </Route>
             </>
 
         )

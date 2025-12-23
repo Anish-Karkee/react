@@ -73,12 +73,28 @@ const Form = ({type}) => {
                     
                 }
                 </button>
+                <div className='flex items-start gap-24' >
                  {type === "login" && (
                                 <p className="text-center text-sm text-black">
                                 Don&apos;t have an account?{' '}
                              <Link to="/signup" className="font-medium text-blue-500 hover:text-red-500"> Sign up </Link>
                              </p>
                             )}
+                             {type === "signup" && (
+                                
+                                <p className="text-center text-sm text-black">
+                                If You have an account?{' '}
+                             <Link to="/login" className="font-medium text-blue-500 hover:text-red-500"> Log In </Link>
+                             </p>
+                            )}
+                             <p className=" text-sm text-black">
+                                Back to
+                             <Link to="/" className="font-medium text-blue-500 hover:text-red-500"> Home </Link>
+                             </p>
+                </div> 
+                
+               
+                 
            
                 
             </div>

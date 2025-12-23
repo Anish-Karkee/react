@@ -12,7 +12,7 @@ const TestimonialPage = () => {
   
 
     <div class="py-8 bg-white">
-    <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+    <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-1">
         {/* <!-- Section Header --> */}
         <div class="mb-12 text-center">
             <h2 class="mb-4 text-3xl font-bold sm:text-4xl">
