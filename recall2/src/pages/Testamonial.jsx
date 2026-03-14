@@ -7,8 +7,8 @@ import carron from '../assets/images/carron1.jpeg'
 const testimonials = [
   {
     img: "https://randomuser.me/api/portraits/women/6.jpg",
-    name: "Suman R.",
-    handle: "@suman_rae",
+    name: "Simosh k.",
+    handle: "@simosh_khadka",
     text: `"Young Enfielders is more than just a riding group — it's a brotherhood." Riding with this group has given me unforgettable memories, lifelong friends, and the confidence to explore new roads. Every ride feels safe, organized, and full of positive energy. — Rider`,
     likes: 143,
     reposts: 24,
@@ -25,7 +25,7 @@ const testimonials = [
   },
   {
     img: "https://randomuser.me/api/portraits/men/54.jpg",
-    name: "Carron Rai",
+    name: "Carron M.",
     handle: "@carron_enfeild",
     text: `"I joined as a solo rider, now I ride with a family." Being part of Young Enfielders changed how I see motorcycling. The support, guidance, and shared passion make every journey meaningful. Proud to ride with this team. — Member`,
     likes: 189,
@@ -34,8 +34,8 @@ const testimonials = [
   },
   {
     img: "https://randomuser.me/api/portraits/women/53.jpg",
-    name: "Aashish P.",
-    handle: "@peached_tea",
+    name: "Yodin g.",
+    handle: "@yodg4f",
     text: `"Safety, unity, and pure riding spirit." What I admire most is the focus on safe riding and teamwork. Young Enfielders represents the true Royal Enfield lifestyle. — Touring Rider`,
     likes: 167,
     reposts: 36,
@@ -43,7 +43,7 @@ const testimonials = [
   },
   {
     img: "https://randomuser.me/api/portraits/women/43.jpg",
-    name: "Nitesh S.",
+    name: "sahil P.",
     handle: "@neetes__",
     text: `"A group that truly lives the Royal Enfield lifestyle." From the iconic thump to the camaraderie on the road, Young Enfielders represents everything a biker community should be. Proud to be part of this passionate and united group. — Member`,
     likes: 201,
@@ -52,8 +52,8 @@ const testimonials = [
   },
   {
     img: "https://randomuser.me/api/portraits/men/62.jpg",
-    name: "Prakash M.",
-    handle: "@copymuseai",
+    name: "Prajwal R.",
+    handle: "@prajwalll_ig",
     text: `"Every ride feels purposeful and unforgettable." Young Enfielders isn't just about riding motorcycles — it's about discipline, respect, and exploring Nepal's beautiful roads together. The bond among riders makes every journey special. — Royal Enfield Rider`,
     likes: 175,
     reposts: 31,
