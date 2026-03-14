@@ -159,7 +159,7 @@ const TestimonialPage = () => {
               </p>
             </blockquote>
             <figcaption className="font-medium">
-              <div className="text-sky-500 dark:text-sky-400">Carron Rai</div>
+              <div className="text-sky-500 dark:text-sky-400">Carron Magar</div>
               <div className="text-slate-500 dark:text-slate-400 text-sm">Member / Rider, Young Enfielders</div>
             </figcaption>
           </div>
