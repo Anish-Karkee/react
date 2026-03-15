@@ -36,8 +36,8 @@ const ContactPage = () => {
               <div>
                 <h3 className="text-base font-semibold mb-1">Phone Numbers</h3>
                 <p className="text-gray-600 text-sm leading-relaxed">
-                  <a href="tel:+9779812377759" className="hover:text-blue-500 transition-colors">+977 9812377759</a><br />
-                  <a href="tel:+9779812307779" className="hover:text-blue-500 transition-colors">+977 9812307779</a>
+                  <a href="tel:+9779810046088" className="hover:text-blue-500 transition-colors">+977 9810046088</a><br />
+                  <a href="tel:+9779810046088" className="hover:text-blue-500 transition-colors">+977 9810046088</a>
                 </p>
               </div>
             </div>
@@ -50,17 +50,17 @@ const ContactPage = () => {
               <div>
                 <h3 className="text-base font-semibold mb-1">Email Address</h3>
                 <p className="text-gray-600 text-sm leading-relaxed">
-                  <a href="mailto:azk522@gmail.com" className="hover:text-blue-500 transition-colors break-all">azk522@gmail.com</a>
+                  <a href="mailto:youngenfielders522@gmail.com" className="hover:text-blue-500 transition-colors break-all">youngenfielders522@gmail.com</a>
                 </p>
               </div>
             </div>
 
             {/* Social Icons */}
             <div className="flex gap-3 mt-8">
-              <a href="#" className="w-10 h-10 bg-gray-700 flex items-center justify-center rounded-full text-white hover:bg-blue-600 hover:-translate-y-1 transition duration-300">
+              <a href="https://www.facebook.com/prince.dangi.5209" className="w-10 h-10 bg-gray-700 flex items-center justify-center rounded-full text-white hover:bg-blue-600 hover:-translate-y-1 transition duration-300">
                 <i className="fab fa-facebook-f" />
               </a>
-              <a href="#" className="w-10 h-10 bg-gray-700 flex items-center justify-center rounded-full text-white hover:bg-pink-600 hover:-translate-y-1 transition duration-300">
+              <a href="https://www.instagram.com/young_enfielders/?hl=en" className="w-10 h-10 bg-gray-700 flex items-center justify-center rounded-full text-white hover:bg-pink-600 hover:-translate-y-1 transition duration-300">
                 <i className="fab fa-instagram" />
               </a>
               <a href="#" className="w-10 h-10 bg-gray-700 flex items-center justify-center rounded-full text-white hover:bg-blue-400 hover:-translate-y-1 transition duration-300">
